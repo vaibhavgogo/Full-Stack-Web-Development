@@ -68,37 +68,39 @@ This 16-week Full Stack Web Development Program is designed to take you from beg
 
 ---
 
-## 📁 Folder Structure
+### 📁 Folder Structure
 
+```text
 full-stack-web-dev-program/
 ├── README.md
 ├── week-01-html/
-│ ├── hello-world.html
-│ └── semantic-elements.html
+│   ├── hello-world.html
+│   └── semantic-elements.html
 ├── week-02-css/
-│ ├── flexbox-demo.css
-│ ├── bootstrap-form.html
-│ └── tailwind-dashboard.html
+│   ├── flexbox-demo.css
+│   ├── bootstrap-form.html
+│   └── tailwind-dashboard.html
 ├── week-03-javascript-1/
-│ ├── datatypes.js
-│ ├── functions.js
-│ └── dom-events.js
+│   ├── datatypes.js
+│   ├── functions.js
+│   └── dom-events.js
 ├── week-04-javascript-2/
-│ ├── oop.js
-│ ├── async-await.js
-│ └── modules.js
+│   ├── oop.js
+│   ├── async-await.js
+│   └── modules.js
 ├── upcoming-weeks/
-│ └── week-05-react-intro/
-│ └── week-06-typescript-setup/
-│ └── week-07-node-express-api/
-│ └── week-08-mongodb-integration/
+│   ├── week-05-react-intro/
+│   ├── week-06-typescript-setup/
+│   ├── week-07-node-express-api/
+│   └── week-08-mongodb-integration/
 ├── projects/
-│ ├── responsive-landing-page/
-│ ├── weather-app-react/
-│ └── fullstack-task-manager/
+│   ├── responsive-landing-page/
+│   ├── weather-app-react/
+│   └── fullstack-task-manager/
 └── docs/
-├── learning-notes/
-└── deployment-guide/
+    ├── learning-notes/
+    └── deployment-guide/
+```
 
 
 ---
