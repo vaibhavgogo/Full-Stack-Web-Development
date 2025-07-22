@@ -70,3 +70,143 @@ This 16-week Full Stack Web Development Program is designed to take you from beg
 
 ## 📁 Folder Structure
 
+full-stack-web-dev-program/
+├── README.md
+├── week-01-html/
+│ ├── hello-world.html
+│ └── semantic-elements.html
+├── week-02-css/
+│ ├── flexbox-demo.css
+│ ├── bootstrap-form.html
+│ └── tailwind-dashboard.html
+├── week-03-javascript-1/
+│ ├── datatypes.js
+│ ├── functions.js
+│ └── dom-events.js
+├── week-04-javascript-2/
+│ ├── oop.js
+│ ├── async-await.js
+│ └── modules.js
+├── upcoming-weeks/
+│ └── week-05-react-intro/
+│ └── week-06-typescript-setup/
+│ └── week-07-node-express-api/
+│ └── week-08-mongodb-integration/
+├── projects/
+│ ├── responsive-landing-page/
+│ ├── weather-app-react/
+│ └── fullstack-task-manager/
+└── docs/
+├── learning-notes/
+└── deployment-guide/
+
+
+---
+
+## 📚 Weekly Curriculum
+
+### 📌 **Week 1: HTML**
+- Web development prerequisites
+- Hosting, VS Code setup, Git introduction
+- HTML5 basics, semantic tags
+- Project: *Hello World Page*
+
+### 🎨 **Week 2: CSS**
+- CSS fundamentals & advanced concepts
+- Bootstrap and Tailwind CSS
+- Project: *Responsive Profile Card*
+
+### 🧠 **Week 3: JavaScript Part 1**
+- JavaScript basics: variables, control flow
+- Functions, arrays, objects
+- DOM and BOM interactions
+
+### 🚀 **Week 4: JavaScript Part 2**
+- Events & Event Listeners
+- OOP in JavaScript
+- ES6+: arrow functions, destructuring, modules
+- Asynchronous programming: Promises, async/await
+- Project: *Mini JS Apps (Todo, Timer)*
+
+### ⏳ **Weeks 5–16: Coming Soon**
+- React.js, TypeScript
+- Node.js, Express.js
+- MongoDB + Mongoose
+- Authentication and security
+- Deployment (Render, Vercel, Netlify)
+- Capstone Project
+
+---
+
+## 🌟 Key Highlights
+
+- 🔍 Understand how the web works (DNS, servers, browsers)
+- 🎨 Build with HTML5, CSS3, Bootstrap, Tailwind
+- 🧩 Master JavaScript fundamentals and advanced topics
+- ⚛️ Build powerful UIs with React and TypeScript
+- 🔗 Create RESTful APIs using Express
+- 🧠 Learn NoSQL with MongoDB + SQL basics
+- 🔐 Implement authentication, sessions, cookies
+- 🧰 Use Git & GitHub for real-world collaboration
+- ☁️ Deploy real apps to the cloud
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+- HTML5, CSS3, Bootstrap, Tailwind CSS
+- JavaScript (ES6+), React.js, TypeScript
+
+**Backend:**
+- Node.js, Express.js
+
+**Databases:**
+- MongoDB with Mongoose
+- SQL (intro)
+
+**Tools & DevOps:**
+- Git, GitHub
+- VS Code
+- REST Client, Postman
+- Netlify, Vercel, Render
+
+---
+
+## 📈 Projects & Practice
+
+### 📝 Mini Projects
+- Responsive Layouts
+- JS Calculator & Todo List
+- API Fetch App
+
+### 🚀 Capstone Projects
+- **Task Manager (Full Stack)**
+- **Weather Forecasting App**
+- **Authentication System**
+- **Portfolio Website**
+
+---
+
+## 📦 Deployment & Git
+
+- ✅ Git basics and branching
+- ✅ GitHub repo collaboration
+- ✅ Deployment with Netlify, Vercel, Render
+- ✅ Environment variables and secrets management
+
+---
+
+## 🤝 Connect
+
+**LinkedIn:** [Your LinkedIn](https://linkedin.com/in/your-profile)  
+**GitHub:** [Your GitHub](https://github.com/your-username)  
+**Email:** [yourname@example.com](mailto:yourname@example.com)  
+
+---
+
+<div align="center">
+  <h3>🎉 Level Up Your Web Dev Journey! 🎉</h3>
+  <p><em>"The best way to learn is by building."</em></p>
+  <p><strong>Code. Create. Conquer.</strong></p>
+</div>
