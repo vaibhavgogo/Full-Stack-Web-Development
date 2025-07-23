@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey</title>
+  </head>
+  <body>
+    <h1>Customer Feedback Survey</h1>
+    <h3>Please take a moment to complete the survey below.</h3>
+    <form action="">
+      <label for="name">Name: </label>
+      <input type="text" /><br /><br />
+      <label for="name">Age: </label>
+      <input type="number" /><br /><br />
+      <label for="color">Favourite color : </label>
+      <select name="color" id="c">
+        <option value="RED">RED</option>
+        <option value="ORANGE">ORANGE</option>
+        <option value="BLUE">BLUE</option>
+      </select>
+      <br /><br />
+      <label for="feed">Feedback : </label>
+      <br />
+      <textarea name="feed" id="feed" rows="10" cols="80"></textarea>
+      <br />
+      <br />
+      <button>Submit</button>
+      <h3>Instructions:</h3>
+      <ul>
+        <li>Fill in your name and age in the first two fields.</li>
+        <li>Select your favorite color from the dropdown list.</li>
+        <li>Provide your feedback in the text box below.</li>
+        <li>Click the "Submit" button to submit your responses.</li>
+      </ul>
+      <h2>Survey Responses</h2>
+      <table border="1">
+        <tr>
+          <td>Name</td>
+          <td>Age</td>
+          <td>Feedback</td>
+        </tr>
+        <tr>
+          <td>mahesh</td>
+          <td>53</td>
+          <td>noice</td>
+        </tr>
+        <tr>
+          <td>Raju</td>
+          <td>23</td>
+          <td>good</td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
