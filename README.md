@@ -201,9 +201,9 @@ full-stack-web-dev-program/
 
 ## 🤝 Connect
 
-**LinkedIn:** [Your LinkedIn](https://linkedin.com/in/your-profile)  
-**GitHub:** [Your GitHub](https://github.com/your-username)  
-**Email:** [yourname@example.com](mailto:yourname@example.com)  
+**LinkedIn:** [Your LinkedIn]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/vaibhav-sharma-682584208/))  
+**GitHub:** [Your GitHub]([https://github.com/your-username](https://github.com/vaibhavgogo))  
+**Email:** [yourname@example.com](vaibhavsmartkid.com)  
 
 ---
 
