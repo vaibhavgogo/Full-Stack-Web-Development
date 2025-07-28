@@ -207,6 +207,9 @@ full-stack-web-dev-program/
 
 ---
 
+🙋‍♂️ Author
+Vaibhav Sharma
+
 <div align="center">
   <h3>🎉 Level Up Your Web Dev Journey! 🎉</h3>
   <p><em>"The best way to learn is by building."</em></p>
