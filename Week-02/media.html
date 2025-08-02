@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Media Query Example</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 90%;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: white;
+      border: 1px solid #ccc;
+      text-align: center;
+      transition: background-color 0.3s ease;
+    }
+
+    /* Media query: screen width is 800px or less */
+    @media (max-width: 800px) {
+      .container {
+        background-color: #ffcccb; /* Light red */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Responsive Media Query Test</h2>
+    <p>Resize your browser window to 800px wide or less to see the background color turn light red.</p>
+  </div>
+
+</body>
+</html>

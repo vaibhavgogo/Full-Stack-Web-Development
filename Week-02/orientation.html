@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Orientation Media Query Example</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 90%;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #f0f0f0; /* Default for portrait */
+      border: 1px solid #ccc;
+      text-align: center;
+      transition: background-color 0.3s ease;
+    }
+
+    /* When in landscape orientation */
+    @media (orientation: landscape) {
+      .container {
+        background-color: #cceeff;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Orientation Demo</h1>
+    <p>Rotate your device or resize the window to change the background color based on orientation.</p>
+  </div>
+</body>
+</html>

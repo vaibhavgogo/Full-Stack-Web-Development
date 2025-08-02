@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CSS Position Demo</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 200vh; /* enough height to scroll */
+    }
+    .box {
+      width: 200px;
+      height: 60px;
+      color: white;
+      padding: 10px;
+      margin: 20px;
+      font-weight: bold;
+      text-align: center;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+    .static { background: #888; }
+    .relative {
+      background: #1e90ff;
+      position: relative;
+      top: 20px;
+      left: 30px;
+    }
+    .absolute-wrapper {
+      position: relative;
+      height: 100px;
+      background: #eee;
+      margin: 20px;
+    }
+    .absolute {
+      background: #e91e63;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+    .fixed {
+      background: #4caf50;
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      z-index: 999;
+    }
+    .sticky {
+      background: #ff9800;
+      position: sticky;
+      top: 0;
+    }
+    .scroll-area {
+      height: 600px;
+      overflow-y: scroll;
+      background: #f0f0f0;
+      margin-top: 20px;
+      padding: 10px;
+    }
+
+    /* Animation on hover */
+    .box:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box static">Static (Default)</div>
+
+  <div class="box relative">Relative (top: 20px; left: 30px)</div>
+
+  <div class="absolute-wrapper">
+    <div class="box absolute">Absolute (top-right corner)</div>
+  </div>
+
+  <div class="box fixed">Fixed (top-left of screen)</div>
+
+  <div class="scroll-area">
+    <div class="box sticky">Sticky (sticks to top)</div>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p>Scroll down to see sticky behavior</p>
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p style="margin-top: 400px;">End of sticky test</p>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+
+<html>
+<head>
+    <style>
+               @keyframes moveBox {
+   from { transform: translateY(0); }
+   to { transform: translateY(200px); }
+}
+   :root {
+            --ma: lightblue;
+            --m: darkblue;
+        }
+        body {
+            background-color: var(--ma);
+            color: var(--m);
+        }
+.box {
+   width: 100px;
+   height: 100px;
+   background-color: blue;
+   animation: moveBox 2s infinite;
+}
+        :root {
+            --spacing: 20px;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: lightcoral;
+            margin: var(--spacing);
+        }
+ 
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box"></div>
+</body>
+</html>
